@@ -5,7 +5,7 @@
  *@h: pointer to the list
  *Return: length of list
  **/
-int len_list(listint_t *h)
+int lits_lika(listint_t *h)
 {
 int kuta = 0;
 while (h != NULL)
@@ -25,7 +25,7 @@ listint_t *pano = NULL, *fst = NULL;
 listint_t *scnd = NULL;
 listint_t *ird = NULL;
 listint_t *rt = NULL;
-if (!list || !(*list) || len_list(*list) < 2)
+if (!list || !(*list) || lits_lika(*list) < 2)
 return;
 pano = *list;
 while (pano != NULL)
